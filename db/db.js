@@ -7,4 +7,3 @@ function connectDb  (connectionString){
 module.exports = connectDb;
 
 
-'mongodb://localhost:27017/test'
