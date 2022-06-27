@@ -18,7 +18,7 @@ async function authenticate(req,res,next){
     next();
 
   }catch(e){
-      throw error("Invalid token",401)
+      next(e)
   }
 
 }
